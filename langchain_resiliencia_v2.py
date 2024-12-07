@@ -24,8 +24,7 @@ structured_prompt = load_prompt(prompt_path)
 chat_model = ChatOpenAI(
     model="gpt-4",
     temperature=0,
-    openai_api_key="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"
-)
+
 
 # Caminho absoluto para o arquivo Excel
 adaptabrasil_filepath = os.path.join(script_dir, "Base de Riscos do Adapta Brasil.xlsx")
